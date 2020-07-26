@@ -20,9 +20,19 @@ Al tirarle un binwalk al jpg me di cuenta que tenia un zip dentro
 
 ![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/binwalk_sartaarap.jpg)
 
+Luego, de descomprimir usando `binwalk -e mac.jpg` usé john para obtener la contraseña y descomprimir el zip oculto de la imagen
+
+![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/extract_sartaarap.jpg)
+
+Obteniendo un archivo de texto y un mp3, el archivo de texto (cai en la trampa e intente usarlo como flag), en realidad no aportaba mucho asique segui con el mp3.
+
+![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/files_sartaarap.jpg)
+
+Básicamente el mp3, en más o menos el minuto 1:45, podía escucharse la voz de alguien deletreando algo que no se entendia bien, asique solo fue necesario usar revert para escuchar el audio de atrás para adelante y sorprendernos con que un amable sujeto nos daba clarito la flag y solo había que escribirla luego de la cuenta de 3, uno dos tres 
+
 ![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/audio_sartaarap.jpg)
 
-`Q4SB{V4m0s_m3j0r4nd0!}`
+`Q4SB{dificilescantarlaflag}`
 
 
 [p4n](https://www.hackthebox.eu/home/users/profile/140674)
