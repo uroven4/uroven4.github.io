@@ -2,27 +2,29 @@
 layout: archive
 classes: wide
 category: entry
-title:  "CTF SombreroBlanco/Q4 - [Crypto] Juguemos"
-excerpt: "Mi solución para el challenge Juguemos del CTF realizado hace poco gracias a la gente de Sombrero Blanco y Q4"
+title:  "CTF SombreroBlanco/Q4 - [Crypto] El Espejo"
+excerpt: "Mi solución para el challenge 'El Espejo' del CTF realizado hace poco gracias a la gente de Sombrero Blanco y Q4"
 author: p4ncontomat3
 ---
-Mi solución para el challenge Juguemos del CTF realizado hace poco gracias a la gente de Sombrero Blanco y Q4
+Mi solución para el challenge 'El Espejo' del CTF realizado hace poco gracias a la gente de Sombrero Blanco y Q4
 
 Para resolver este desafío creado por [n3v1l](https://twitter.com/n3v1l1) había que usar el texto entregado en la descripción del desafío.
 
-![](https://uroven4.github.io/assets/images/content/Q4SB/juguemos/desc_juguemos.jpg)
+![](https://uroven4.github.io/assets/images/content/Q4SB/espejo/desc_espejo.jpg)
 
-```
-IBLEWQ3LFNLXIMZUIVRDALJBIJVTWMDNIROWS2ZJIYQSYIRNIYVCSLBWIZBUENJVIBZEO3
-LMIFXGEYLAIBYWM2ZBIFKEWSJSIA6CIRRIFNCCGVRZL5VUCMTQIZLWEWCEIFJWYLRCGNNHC
-OKWHNQVAZ3GINUEORZPGFHFEWDQIQUHAJB4GFUVESLLIREWESKYIREWER2M
-```
+`
+HV EVRZ NZH HRNKOV VHGV XRUIZWLI KLI OL GZMGL GV TZMZHGV OZ UOZT JFV WVYV RI ZWVMGIL VHGVXRUIZWLIVHSVYIVL
+`
 
-Bien resumido, el texto inicial estaba en base32 y la salida de ello estaba en base85, asique usando [cyberchef](https://gchq.github.io/CyberChef/) la solución salía rapidito sin tener que hacer mucho más.
+Ya que el nombre del desafío es `espejo` empecé a cachar tipos de encoding o ciphers que tuvieran que ver con `mirror`, asi fue como llegue una vez más a usar la vieja confiable y su [Atbash mirror cipher](https://www.dcode.fr/atbash-cipher) 
 
-![](https://uroven4.github.io/assets/images/content/Q4SB/juguemos/sol_juguemos.jpg)
+![](https://uroven4.github.io/assets/images/content/Q4SB/espejo/atbash_espejo.jpg)
 
-`Q4SB{4lg0_3st4m0s_4pr3nd13nd0}`
+Obteniendo un texto como respuesta de este desafío
+
+![](https://uroven4.github.io/assets/images/content/Q4SB/espejo/sol_espejo.jpg)
+
+`Q4SB{ESTECIFRADORESHEBREO}`
 
 
 
