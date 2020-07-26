@@ -15,7 +15,10 @@ La imagen del desafío era la "caratula" del Floral Shoppe de Macintosh Plus, en
 ![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/image_sartaarap.jpg)
 
 `Aesthetics`
-![](https://i.redd.it/tkwk9fm5riz01.jpg)
+
+Al tirarle un binwalk al jpg me di cuenta que tenia un zip dentro
+
+![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/binwalk_sartaarap.jpg)
 
 ![](https://uroven4.github.io/assets/images/content/Q4SB/sartaarap/audio_sartaarap.jpg)
 
