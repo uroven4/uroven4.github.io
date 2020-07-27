@@ -42,7 +42,7 @@ search: true
 author:
   name     : "Uroven4"
   #avatar   : "/assets/images/perro.jpg"
-  bio      : "CTF if love <3"
+  bio      : "CTF is love <3"
   location : "Chile"
   links	 :
     - label: "Github"
